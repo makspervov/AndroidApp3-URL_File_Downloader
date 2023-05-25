@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">URL File Downloader</string>
+    <string name="urlTextView">Address:</string>
+    <string name="infoButton">Get Info</string>
+    <string name="fileSize">File Size:</string>
+    <string name="fileType">File Type:</string>
+    <string name="downloadButton">Download</string>
+    <string name="downloaded">Downloaded (in bytes):</string>
+    <string name="url">https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.36.tar.xz</string>
+    <string name="messageTitle">Message title</string>
+    <string name="process">Download in process…</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="Hunter_green">#4C8459</color>
+    <color name="Asparagus">#60935D</color>
+    <color name="Apple_green">#8DA52F</color>
+    <color name="Jade">#0DAB76</color>
+    <color name="Castleton_green">#07563b</color>
+    <color name="Black">#FF000000</color>
+    <color name="White">#FFFFFFFF</color>
+</resources>
