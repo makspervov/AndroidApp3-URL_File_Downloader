@@ -72,7 +72,6 @@ public class MainActivity extends AppCompatActivity {
         // Przywracanie stanu aktywności
         if (savedInstanceState != null) {
             progressInfo = savedInstanceState.getParcelable("progressInfo");
-            savedUrl = savedInstanceState.getString("url");
             if (progressInfo != null) {
                 updateProgress(progressInfo);
             }
@@ -82,7 +81,6 @@ public class MainActivity extends AppCompatActivity {
 
         fileType.setText(savedFileType);
         fileSize.setText(savedFileSize);
-        url.setText(savedUrl);
     }
 
     private void startDownloadingFile() {
@@ -146,7 +144,6 @@ public class MainActivity extends AppCompatActivity {
         outState.putParcelable("progressInfo", progressInfo);
         outState.putString("fileType", fileType.getText().toString());
         outState.putString("fileSize", fileSize.getText().toString());
-        outState.putString("url", url.getText().toString());
     }
 
 
